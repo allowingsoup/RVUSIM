@@ -195,9 +195,9 @@ def patient_interview_page():
 def load_all_media_files():
     """Load all media files from the media directory."""
     media_files = [
-        "media/HeartSounds.mp3",
-        "media/TandemGait.mp4",
-        "media/Tonsils.jpg"
+        "SimMedia/HeartSounds.mp3",
+        "SimMedia/TandemGait.mp4",
+        "SimMedia/Tonsils.jpg"
     ]
     
     # Define allowed extensions for all media types
