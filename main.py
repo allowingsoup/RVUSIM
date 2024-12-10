@@ -192,7 +192,7 @@ def patient_interview_page():
                 go_to_page('physical_exam')
 
 
-def load_all_media_files():
+def load_all_media_files(directory):
     """Load all media files from the media directory."""
     media_files = [
         "SimMedia/HeartSounds.mp3",
