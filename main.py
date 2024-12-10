@@ -3,7 +3,7 @@ from openai import OpenAI
 from pathlib import Path
 
 # Initialize OpenAI client using secrets
-client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+client = OpenAI(api_key=st.secrets["openai"]["api_key"])
 
 # Hardcode the patient case information
 PATIENT_CASE = {
